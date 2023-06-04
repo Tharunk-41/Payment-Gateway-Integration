@@ -15,7 +15,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   <!-- Custom CSS file link -->
   <link rel="stylesheet" href="style.css">
-  <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
 </head>
 
 <body>
@@ -26,19 +25,8 @@
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </nav>
-      <form>
-        <div id="donate-button"></div>
-        <script>
-        PayPal.Donation.Button({
-        env:'sandbox',
-        hosted_button_id:'CABEATNSEUX4G',
-        image: {
-        src:'https://pics-v2.sandbox.paypal.com/00/s/M2NlMGRhMzYtMmQxZC00NWE5LTk2ZWMtZGViOTVlOTI2MzZh/file.PNG',
-        alt:'Donate with PayPal button',
-        title:'PayPal - The safer, easier way to pay online!',
-        }
-        }).render('#donate-button');
-        </script>
+    <form class="butn">
+      <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_LxlVYdTOoyLrbM" async> </script> 
     </form>
     </header>
     <div class="content">
