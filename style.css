@@ -89,15 +89,15 @@ body{
     border-radius: 1.5rem;
     transform: scale(1.1);
 }
-#donate-button{
+
+.butn{
     margin-top: 1rem;
-    border-radius: 30px;
-    max-width: 20rem;
 }
-#donate-button:hover{
+.butn:hover{
     transform: scale(1.1);
     box-shadow: rgba(255,255,255);
 }
+  
   
 .carousel-control-prev{
   margin-right: 5rem;
