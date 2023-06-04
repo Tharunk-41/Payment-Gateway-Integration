@@ -7,7 +7,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="charity.css">
-  <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
 </head>
 
 <body class="donatehome">
@@ -15,18 +14,7 @@
     <h1>THANK YOU</h1>
     <h1 style="color:white;">FOR CONTRIBUTING !</h1>
     <form>
-        <div id="donate-button"></div>
-        <script>
-        PayPal.Donation.Button({
-        env:'sandbox',
-        hosted_button_id:'CABEATNSEUX4G',
-        image: {
-        src:'https://pics-v2.sandbox.paypal.com/00/s/M2NlMGRhMzYtMmQxZC00NWE5LTk2ZWMtZGViOTVlOTI2MzZh/file.PNG',
-        alt:'Donate with PayPal button',
-        title:'PayPal - The safer, easier way to pay online!',
-        }
-        }).render('#donate-button');
-        </script>
+      <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_LxlVYdTOoyLrbM" async> </script>
     </form>
   </section>
 </body>
