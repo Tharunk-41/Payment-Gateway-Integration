@@ -2,7 +2,7 @@ body{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(https://media.istockphoto.com/id/1145766838/photo/heart-hands.jpg?s=170667a&w=0&k=20&c=40hXAow4wmkZ_W78rnL23atAWFASUl7BSCGXWefAzcQ=) no-repeat;
+    background:url(https://goodineverygrain.ca/wp-content/uploads/2023/01/hands-and-heart-e1672772640820.png) no-repeat;
     background-size: cover;
     background-position: center;
     align-content: center;
@@ -27,11 +27,10 @@ h1{
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
 }
-#donate-button{
+.btn{
   margin-top: 1rem;
-  border-radius: 25px;
 }
-#donate-button:hover{
+.btn:hover{
   transform: scale(1.1);
   box-shadow: rgba(255,255,255);
 }
