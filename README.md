@@ -1,7 +1,3 @@
-# TSF03-payment--gateway-integration-
-
-Hi I made this website to integrate payment gateway for The Sparks Foundation Task as Web and Mobile Developer Intern.
-
 PAYMENT GATEWAY INTEGRATION
 
 Create a simple website where payment gateway is integrated.
